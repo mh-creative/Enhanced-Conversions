@@ -26,7 +26,7 @@ add_action('wp_enqueue_scripts', 'enqueue_custom_script');
 ?>
 ```
 
-### Step 3 Usage Instructions
+### Step 3
 Modify the enhanced-conversions.js file to reference the forms, inputs, and data that you want to pass and push to the data layer.
 
 ## Authors
