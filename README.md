@@ -13,7 +13,7 @@ Upload `js/enhanced-conversions.js` to your website project.
 ### Step 2
 Include the script in your website header or footer. In this example, the `functions.php` file includes `wp_enqueue` to include the file in a WordPress project.
 
-`
+```
 <?php
 
 /** Register Enhanced Conversions - Custom JS File - Footer **/
@@ -24,6 +24,6 @@ function enqueue_custom_script() {
 add_action('wp_enqueue_scripts', 'enqueue_custom_script');
 
 ?>
-`
+```
 ## Authors
 Michael Hayes
