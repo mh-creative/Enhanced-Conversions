@@ -1,9 +1,5 @@
 //Alter this Script to fit your requirements.
 
-//Description - The code initialises a dataLayer array if it doesn't already exist and sets up a jQuery function that runs when the document is ready. It checks for the presence of a form with the ID 'e.g. contact'. If the form exists, it defines a function to extract data from the form fields and push this data to the dataLayer. It then attaches a submit event listener to the form to prevent the default submission, serialise the form data, and call the function to send the data to the dataLayer.
-
-//Description - Enhanced Conversions configuration tutorial using Google Tag Manager - https://www.youtube.com/watch?v=QbFMSEXEt5g
-
 //Contact Form
 
 window.dataLayer = window.dataLayer || [];
